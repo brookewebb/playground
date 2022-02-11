@@ -1,0 +1,38 @@
+:root {
+    --back-color: {{color}};
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web-title{
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    border: 5px solid pink;
+    border-radius: 10px;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: lightblue;
+}
+
+.color{
+    background-color: var(--back-color);
+}
